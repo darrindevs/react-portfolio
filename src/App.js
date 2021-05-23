@@ -3,8 +3,12 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Container from "./components/Container";
 import NavTabs from "./components/NavTabs";
 import Navbar from "./components/Navabar";
+//import List from "./components/List";
+import List2 from "./components/List2";
+//import Feed from "./components/Feed";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
+import Project1 from "./pages/Project1";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
@@ -18,9 +22,7 @@ function App() {
         <NavTabs />
         <main class="flex-auto">{/* keep flex-auto for sticky footer */}
         <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/blog" component={Blog} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/project1" component={Project1} />
         </main>
         <Footer />
         </body>
