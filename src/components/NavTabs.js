@@ -22,6 +22,46 @@ function NavTabs() {
           Project 1
         </Link>
       </li>
+      <li className="nav-item">
+        <Link
+          to="/project2"
+          className={location.pathname === "/project2" ? "nav-link active" : "nav-link"}
+        >
+          Project 2
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/project3"
+          className={location.pathname === "/project3" ? "nav-link active" : "nav-link"}
+        >
+          Project 3
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/project4"
+          className={location.pathname === "/project4" ? "nav-link active" : "nav-link"}
+        >
+          Project 4
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/project5"
+          className={location.pathname === "/project5" ? "nav-link active" : "nav-link"}
+        >
+          Project 5
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/project6"
+          className={location.pathname === "/project6" ? "nav-link active" : "nav-link"}
+        >
+          Project 6
+        </Link>
+      </li>
     </ul>
   );
 }

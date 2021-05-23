@@ -9,6 +9,11 @@ import List2 from "./components/List2";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Project1 from "./pages/Project1";
+import Project2 from "./pages/Project2";
+import Project3 from "./pages/Project3";
+import Project4 from "./pages/Project4";
+import Project5 from "./pages/Project5";
+import Project6 from "./pages/Project6";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
@@ -23,6 +28,11 @@ function App() {
         <main class="flex-auto">{/* keep flex-auto for sticky footer */}
         <Route exact path="/" component={Home} />
         <Route exact path="/project1" component={Project1} />
+        <Route exact path="/project2" component={Project2} />
+        <Route exact path="/project3" component={Project3} />
+        <Route exact path="/project4" component={Project4} />
+        <Route exact path="/project5" component={Project5} />
+        <Route exact path="/project6" component={Project6} />
         </main>
         <Footer />
         </body>
