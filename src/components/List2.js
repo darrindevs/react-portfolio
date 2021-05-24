@@ -1,5 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { CalendarIcon, LocationMarkerIcon, UsersIcon } from '@heroicons/react/solid'
+import { Link, useLocation } from "react-router-dom";
+
 
 const positions = [
   {
@@ -32,14 +34,22 @@ const positions = [
 ]
 
 export default function List2() {
+  const location = useLocation();
   return (
     <div className="bg-white shadow overflow-hidden sm:rounded-md">
       <ul className="divide-y divide-gray-200">
         {positions.map((position) => (
           <li key={position.id}>
+            <Link
+          to="/project1"
+          className={location.pathname === "/project1" ? "nav-link active" : "nav-link"}
+        >
+          Project 1
+        </Link>
             <a href="#" className="block hover:bg-gray-50">
               <div className="px-4 py-4 sm:px-6">
                 <div className="flex items-center justify-between">
+                
                   <p className="text-sm font-medium text-indigo-600 truncate">{position.title}</p>
                   <div className="ml-2 flex-shrink-0 flex">
                     <p className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
