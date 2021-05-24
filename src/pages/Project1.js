@@ -6,21 +6,21 @@ import { NewspaperIcon, PhoneIcon, SupportIcon } from '@heroicons/react/outline'
 
 const supportLinks = [
   {
-    name: 'Sales',
+    name: 'React',
     href: '#',
     description:
-      'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
+      'With React this portfolio is built on components which are dynamically rendered to the virtual DOM. The content you are reading is imported to the component from a JSON object.',
     icon: PhoneIcon,
   },
   {
-    name: 'Technical Support',
+    name: 'React Router',
     href: '#',
     description:
       'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
     icon: SupportIcon,
   },
   {
-    name: 'Media Inquiries',
+    name: 'Tailwind CSS',
     href: '#',
     description:
       'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
@@ -42,10 +42,9 @@ export default function Project1() {
           <div className="absolute inset-0 bg-indigo-800 mix-blend-multiply" aria-hidden="true" />
         </div>
         <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Project 1</h1>
+          <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">React Portfolio</h1>
           <p className="mt-6 max-w-3xl text-xl text-gray-300">
-            Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui
-            laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.
+            You are looking at it now!
           </p>
         </div>
       </div>
@@ -68,11 +67,7 @@ export default function Project1() {
                 <h3 className="text-xl font-medium text-gray-900">{link.name}</h3>
                 <p className="mt-4 text-base text-gray-500">{link.description}</p>
               </div>
-              <div className="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-                <a href={link.href} className="text-base font-medium text-indigo-700 hover:text-indigo-600">
-                  Contact us<span aria-hidden="true"> &rarr;</span>
-                </a>
-              </div>
+              
             </div>
           ))}
         </div>
