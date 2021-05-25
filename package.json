@@ -1,6 +1,5 @@
 {
   "name": "app",
-  "homepage": "https://darrindevs.github.io/react-portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +18,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
