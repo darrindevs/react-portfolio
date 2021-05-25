@@ -1,9 +1,9 @@
 import React from "react";
-//import { BrowserRouter as Router, Route } from "react-router-dom";
-import { HashRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+//import { HashRouter as Router } from 'react-router-dom';
 import Container from "./components/Container";
 //import NavTabs from "./components/NavTabs";
-import Navbar from "./components/Navabar";
+import Navbar from "./components/Navbar";
 //import List from "./components/List";
 //import List2 from "./components/List2";
 //import List3 from "./components/List3";
