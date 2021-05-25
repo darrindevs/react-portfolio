@@ -13,12 +13,12 @@ export default function List3() {
                 <Link to="/project1" className={location.pathname === "/project1" ? "nav-link active" : "nav-link"}>
                     <div className="px-4 py-4 sm:px-6">
                         <div className="flex items-center justify-between">
-                            <h2 className="project-name">Project One</h2>
+                            <h2 className="project-name">React Portfolio</h2>
                         </div>
                         <div className="mt-2 sm:flex sm:justify-between">
                             <div className="sm:flex">
-                                <p className="w-4/5">
-                                Voluptate four dollar toast skateboard franzen, disrupt id retro street art schlitz offal aesthetic.Typewriter aliqua id, succulents mustache ad laboris brunch poke ut wayfarers readymade culpa plaid wolf. 
+                                <p className="">
+                                A professional portfolio built with React. 
                                 </p>
                             
                             </div>
@@ -41,12 +41,12 @@ export default function List3() {
                 <Link to="/project2" className={location.pathname === "/project2" ? "nav-link active" : "nav-link"}>
                     <div className="px-4 py-4 sm:px-6">
                         <div className="flex items-center justify-between">
-                            <h2 className="project-name">Project Two</h2>
+                            <h2 className="project-name">Employee Directory</h2>
                         </div>
                         <div className="mt-2 sm:flex sm:justify-between">
                             <div className="sm:flex">
-                                <p className="w-4/5">
-                                Voluptate four dollar toast skateboard franzen, disrupt id retro street art schlitz offal aesthetic.Typewriter aliqua id, succulents mustache ad laboris brunch poke ut wayfarers readymade culpa plaid wolf. 
+                                <p className="">
+                                A React app for searching an employee directory.
                                 </p>
                             
                             </div>
@@ -63,12 +63,12 @@ export default function List3() {
                 <Link to="/project3" className={location.pathname === "/project3" ? "nav-link active" : "nav-link"}>
                     <div className="px-4 py-4 sm:px-6">
                         <div className="flex items-center justify-between">
-                            <h2 className="project-name">Project Three</h2>
+                            <h2 className="project-name">Clicky</h2>
                         </div>
                         <div className="mt-2 sm:flex sm:justify-between">
                             <div className="sm:flex">
                                 <p className="w-4/5">
-                                Voluptate four dollar toast skateboard franzen, disrupt id retro street art schlitz offal aesthetic.Typewriter aliqua id, succulents mustache ad laboris brunch poke ut wayfarers readymade culpa plaid wolf. 
+                                A memory game built with React. 
                                 </p>
                             
                             </div>
@@ -85,12 +85,12 @@ export default function List3() {
                 <Link to="/project4" className={location.pathname === "/project4" ? "nav-link active" : "nav-link"}>
                     <div className="px-4 py-4 sm:px-6">
                         <div className="flex items-center justify-between">
-                            <h2 className="project-name">Project Four</h2>
+                            <h2 className="project-name">Portfolio Three</h2>
                         </div>
                         <div className="mt-2 sm:flex sm:justify-between">
                             <div className="sm:flex">
-                                <p className="w-4/5">
-                                Voluptate four dollar toast skateboard franzen, disrupt id retro street art schlitz offal aesthetic.Typewriter aliqua id, succulents mustache ad laboris brunch poke ut wayfarers readymade culpa plaid wolf. 
+                                <p className="">
+                                A professional portfolio with a dash of fun. 
                                 </p>
                             
                             </div>
@@ -107,12 +107,12 @@ export default function List3() {
                 <Link to="/project5" className={location.pathname === "/project5" ? "nav-link active" : "nav-link"}>
                     <div className="px-4 py-4 sm:px-6">
                         <div className="flex items-center justify-between">
-                            <h2 className="project-name">Project Five</h2>
+                            <h2 className="project-name">Workout Tracker</h2>
                         </div>
                         <div className="mt-2 sm:flex sm:justify-between">
                             <div className="sm:flex">
-                                <p className="w-4/5">
-                                Voluptate four dollar toast skateboard franzen, disrupt id retro street art schlitz offal aesthetic.Typewriter aliqua id, succulents mustache ad laboris brunch poke ut wayfarers readymade culpa plaid wolf. 
+                                <p className="">
+                                A workout app built on Express and Mongoose. 
                                 </p>
                             
                             </div>
@@ -129,12 +129,12 @@ export default function List3() {
                 <Link to="/project6" className={location.pathname === "/project6" ? "nav-link active" : "nav-link"}>
                     <div className="px-4 py-4 sm:px-6">
                         <div className="flex items-center justify-between">
-                            <h2 className="project-name">Project Six</h2>
+                            <h2 className="project-name">Game of Bones</h2>
                         </div>
                         <div className="mt-2 sm:flex sm:justify-between">
                             <div className="sm:flex">
                                 <p className="w-4/5">
-                                Voluptate four dollar toast skateboard franzen, disrupt id retro street art schlitz offal aesthetic.Typewriter aliqua id, succulents mustache ad laboris brunch poke ut wayfarers readymade culpa plaid wolf. 
+                                A fantasy based card collecting game. 
                                 </p>
                             
                             </div>

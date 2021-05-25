@@ -1,10 +1,12 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+//import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router } from 'react-router-dom';
 import Container from "./components/Container";
-import NavTabs from "./components/NavTabs";
+//import NavTabs from "./components/NavTabs";
 import Navbar from "./components/Navabar";
 //import List from "./components/List";
-import List2 from "./components/List2";
+//import List2 from "./components/List2";
+//import List3 from "./components/List3";
 //import Feed from "./components/Feed";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -24,8 +26,7 @@ function App() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <body class="flex flex-col min-h-screen">{/* keep this for sticky footer */}
         <Navbar />
-        <NavTabs />
-        <main class="flex-auto">{/* keep flex-auto for sticky footer */}
+        <main class="flex-auto mt-10">{/* keep flex-auto for sticky footer */}
         <Route exact path="/" component={Home} />
         <Route exact path="/project1" component={Project1} />
         <Route exact path="/project2" component={Project2} />
