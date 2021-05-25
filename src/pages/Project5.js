@@ -1,83 +1,90 @@
 import React from "react";
 
 
-/* This example requires Tailwind CSS v2.0+ */
-import { NewspaperIcon, PhoneIcon, SupportIcon } from '@heroicons/react/outline'
-
-const supportLinks = [
-  {
-    name: 'Sales',
-    href: '#',
-    description:
-      'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
-    icon: PhoneIcon,
-  },
-  {
-    name: 'Technical Support',
-    href: '#',
-    description:
-      'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
-    icon: SupportIcon,
-  },
-  {
-    name: 'Media Inquiries',
-    href: '#',
-    description:
-      'Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
-    icon: NewspaperIcon,
-  },
-]
 
 export default function Project5() {
   return (
-    <div className="bg-white">
-      {/* Header */}
-      <div className="relative pb-32 bg-gray-800">
-        <div className="absolute inset-0">
-          <img
-            className="w-full h-full object-cover"
-            src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100"
-            alt=""
-          />
-          <div className="absolute inset-0 bg-red-800 mix-blend-multiply" aria-hidden="true" />
+   
+<div class="bg-gray">
+ 
+  <div class="relative pb-24 bg-gray-800">
+    <div class="absolute inset-0">
+      <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixqx=BKMIUbtu0C&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100" alt=""></img>
+      <div class="absolute inset-0 bg-red-800 mix-blend-multiply" aria-hidden="true"></div>
+    </div>
+    <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-22 sm:px-6 lg:px-8">
+      <h1 class="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Project 5</h1>
+      <p class="mt-6 max-w-3xl text-xl text-gray-300">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.</p>
+    </div>
+  </div>
+  <section class="-mt-32 max-w-7xl mx-auto relative  px-4 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
+
+  <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+  <div class="bg-white pt-16 pb-20 px-4 sm:px-6 lg:pt-18 lg:pb-18 lg:px-8 rounded">
+  <div class="relative max-w-lg mx-auto divide-gray-200 lg:max-w-7xl">
+    <div class="grid lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
+      <div>
+        <div>
+          <a href="#" class="inline-block">
+            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800">
+              Article
+            </span>
+          </a>
         </div>
-        <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Project 5</h1>
-          <p className="mt-6 max-w-3xl text-xl text-gray-300">
-            Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui
-            laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.
+        <a href="#" class="block mt-4">
+          <p class="text-xl font-semibold text-gray-900">
+            Boost your conversion rate
           </p>
-        </div>
+          <p class="mt-3 text-base text-gray-500">
+            Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
+          </p>
+        </a>
+        
       </div>
 
-      {/* Overlapping cards */}
-      <section
-        className="-mt-32 max-w-7xl mx-auto relative z-10 pb-32 px-4 sm:px-6 lg:px-8"
-        aria-labelledby="contact-heading"
-      >
-        <h2 className="sr-only" id="contact-heading">
-          Contact us
-        </h2>
-        <div className="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
-          {supportLinks.map((link) => (
-            <div key={link.name} className="flex flex-col bg-white rounded-2xl shadow-xl">
-              <div className="flex-1 relative pt-16 px-6 pb-8 md:px-8">
-                <div className="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
-                  <link.icon className="h-6 w-6 text-white" aria-hidden="true" />
-                </div>
-                <h3 className="text-xl font-medium text-gray-900">{link.name}</h3>
-                <p className="mt-4 text-base text-gray-500">{link.description}</p>
-              </div>
-              <div className="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
-                <a href={link.href} className="text-base font-medium text-indigo-700 hover:text-indigo-600">
-                  Contact us<span aria-hidden="true"> &rarr;</span>
-                </a>
-              </div>
-            </div>
-          ))}
+      <div>
+        <div>
+          <a href="#" class="inline-block">
+            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-pink-100 text-pink-800">
+              Video
+            </span>
+          </a>
+        </div>
+        <a href="#" class="block mt-4">
+          <p class="text-xl font-semibold text-gray-900">
+            How to use search engine optimization to drive sales
+          </p>
+          <p class="mt-3 text-base text-gray-500">
+            Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
+          </p>
+        </a>
+        
+      </div>
+
+      <div>
+        <div>
+            <span class="inline-flex items-center mb-3 px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800">
+              Case Study
+            </span>
         </div>
         
-      </section>
+          <p class="text-xl font-semibold text-gray-900">
+            Improve your customer experience
+          </p>
+          <p class="mt-3 text-base text-gray-500">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab iure iusto fugiat commodi sequi.
+          </p>
+          
+          
+          
+      </div>
+      
+      
     </div>
+  </div>
+</div>
+  </div>
+  </section>
+</div>
   )
 }
