@@ -13,8 +13,8 @@ export default function Project6() {
       <div class="absolute inset-0 bg-gray-800 mix-blend-multiply" aria-hidden="true"></div>
     </div>
     <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-22 sm:px-6 lg:px-8">
-      <h1 class="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Project 6</h1>
-      <p class="mt-6 max-w-3xl text-xl text-gray-300">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.</p>
+      <h1 class="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Portfolio 3</h1>
+      <p class="mt-6 max-w-3xl text-xl text-gray-300">This portfolio reboot has some fun with javascript and a bold design.</p>
     </div>
   </div>
   <section class="-mt-32 max-w-7xl mx-auto relative  px-4 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
@@ -27,16 +27,16 @@ export default function Project6() {
         <div>
           <a href="#" class="inline-block">
             <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800">
-              Article
+             JavaScript
             </span>
           </a>
         </div>
         <a href="#" class="block mt-4">
           <p class="text-xl font-semibold text-gray-900">
-            Boost your conversion rate
+            mouseenter: function()
           </p>
           <p class="mt-3 text-base text-gray-500">
-            Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
+            This function waits to load the typewriter scripts until the user's mouse has entered the element. 
           </p>
         </a>
         
@@ -46,16 +46,16 @@ export default function Project6() {
         <div>
           <a href="#" class="inline-block">
             <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-pink-100 text-pink-800">
-              Video
+              Typewriter Effect
             </span>
           </a>
         </div>
         <a href="#" class="block mt-4">
           <p class="text-xl font-semibold text-gray-900">
-            How to use search engine optimization to drive sales
+            Dynamic typewriter effect
           </p>
           <p class="mt-3 text-base text-gray-500">
-            Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
+          Typewriter Effect is a simple, but powerful native JavaScript plugin for a cool typewriter effect.
           </p>
         </a>
         
@@ -64,22 +64,20 @@ export default function Project6() {
       <div>
         <div>
             <span class="inline-flex items-center mb-3 px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800">
-              Case Study
+              Bootstrap 
             </span>
         </div>
         
           <p class="text-xl font-semibold text-gray-900">
-            Improve your customer experience
+            Bootstrap CSS
           </p>
           <p class="mt-3 text-base text-gray-500">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab iure iusto fugiat commodi sequi.
+          Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. 
           </p>
-          
-          
-          
+          <div className="mt-5">
+            <a className="link" href="https://darrindevs.github.io/portfolio-3/" target="blank">View the app</a>
+          </div>
       </div>
-      
-      
     </div>
   </div>
 </div>

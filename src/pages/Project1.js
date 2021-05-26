@@ -13,8 +13,8 @@ export default function Project1() {
       <div class="absolute inset-0 bg-indigo-800 mix-blend-multiply" aria-hidden="true"></div>
     </div>
     <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-22 sm:px-6 lg:px-8">
-      <h1 class="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Project 1</h1>
-      <p class="mt-6 max-w-3xl text-xl text-gray-300">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.</p>
+      <h1 class="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">React Portfolio</h1>
+      <p class="mt-6 max-w-3xl text-xl text-gray-300">You are looking at it now! This professional portfolio uses the power of React to render components in a single page app.</p>
     </div>
   </div>
   <section class="-mt-32 max-w-7xl mx-auto relative  px-4 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
@@ -33,10 +33,10 @@ export default function Project1() {
         </div>
         <a href="#" class="block mt-4">
           <p class="text-xl font-semibold text-gray-900">
-            Boost your conversion rate
+            React Javascript Library
           </p>
           <p class="mt-3 text-base text-gray-500">
-            Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
+          React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right content.
           </p>
         </a>
         
@@ -51,11 +51,10 @@ export default function Project1() {
           </a>
         </div>
         <a href="#" class="block mt-4">
-          <p class="text-xl font-semibold text-gray-900">
-            How to use search engine optimization to drive sales
+          <p class="text-xl font-semibold text-gray-900">React Router
           </p>
           <p class="mt-3 text-base text-gray-500">
-            Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
+          React Router is a collection of navigational components that compose declaratively with your application.
           </p>
         </a>
         
@@ -64,19 +63,19 @@ export default function Project1() {
       <div>
         <div>
             <span class="inline-flex items-center mb-3 px-3 py-0.5 rounded-full text-sm font-medium bg-green-400 text-white">
-              Tailwind CSS
+              Tailwind
             </span>
         </div>
         
           <p class="text-xl font-semibold text-gray-900">
-            Improve your customer experience
+            Tailwind CSS
           </p>
           <p class="mt-3 text-base text-gray-500">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab iure iusto fugiat commodi sequi.
+          Tailwind CSS is a utility first CSS framework that works great with React.
           </p>
-          
-          
-          
+          <div className="mt-5">
+            <a className="link" href="https://glacial-sands-30491.herokuapp.com/" target="blank">View the app</a>
+          </div>
       </div>
       
       

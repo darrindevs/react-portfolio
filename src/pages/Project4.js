@@ -13,8 +13,8 @@ export default function Project4() {
       <div class="absolute inset-0 bg-blue-800 mix-blend-multiply" aria-hidden="true"></div>
     </div>
     <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-22 sm:px-6 lg:px-8">
-      <h1 class="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Project 4</h1>
-      <p class="mt-6 max-w-3xl text-xl text-gray-300">Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.</p>
+      <h1 class="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Game of Bones</h1>
+      <p class="mt-6 max-w-3xl text-xl text-gray-300">This full stack app is a card collecting game for multiple players. This was a collaborative, team project.</p>
     </div>
   </div>
   <section class="-mt-32 max-w-7xl mx-auto relative  px-4 sm:px-6 lg:px-8" aria-labelledby="contact-heading">
@@ -27,16 +27,16 @@ export default function Project4() {
         <div>
           <a href="#" class="inline-block">
             <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800">
-              Article
+              MySQL
             </span>
           </a>
         </div>
         <a href="#" class="block mt-4">
           <p class="text-xl font-semibold text-gray-900">
-            Boost your conversion rate
+            MySQL + Sequelize ORM
           </p>
           <p class="mt-3 text-base text-gray-500">
-            Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
+            Utilizes a MySQL database with Sequelize for Object Relational Mapping to associate cards with decks of cards, owned by individual users. 
           </p>
         </a>
         
@@ -46,16 +46,16 @@ export default function Project4() {
         <div>
           <a href="#" class="inline-block">
             <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-pink-100 text-pink-800">
-              Video
+              Express Session
             </span>
           </a>
         </div>
         <a href="#" class="block mt-4">
           <p class="text-xl font-semibold text-gray-900">
-            How to use search engine optimization to drive sales
+            User Authentication
           </p>
           <p class="mt-3 text-base text-gray-500">
-            Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
+            Built on Express.js and using Express-Session and cookies users can sign up, sign in and have different views based on authentication. 
           </p>
         </a>
         
@@ -64,19 +64,17 @@ export default function Project4() {
       <div>
         <div>
             <span class="inline-flex items-center mb-3 px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800">
-              Case Study
+              Handlebars
             </span>
         </div>
         
           <p class="text-xl font-semibold text-gray-900">
-            Improve your customer experience
+            Templating Engine
           </p>
           <p class="mt-3 text-base text-gray-500">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab iure iusto fugiat commodi sequi.
+            The handlebars.js templating engine takes a JavaScript input object and dynamically renders content. 
           </p>
-          
-          
-          
+          <div className="mt-5"><a className="link" href="https://ancient-shelf-96067.herokuapp.com/" target="blank">View the app</a>.</div>
       </div>
       
       
