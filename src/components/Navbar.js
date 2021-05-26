@@ -16,12 +16,12 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <a href="/"> <img
+                  <a href="https://darrindevs.github.io/react-portfolio/"> <img
                             className="h-8 w-8 rounded-full"
                             src="https://zno.s3-us-west-1.amazonaws.com/helloDarrin.jpg"
                             alt=""
                           /></a>
-                          <a href="/"><h1 className="text-white text-lg font-bold ml-3">Darrin Weyers</h1></a>
+                          <a href="https://darrindevs.github.io/react-portfolio/"><h1 className="text-white text-lg font-bold ml-3">Darrin Weyers</h1></a>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
