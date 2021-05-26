@@ -7,9 +7,19 @@ body {
     background-color: #1F2A37;
 }
 
+/* List */ 
+
+.project-name {
+    font-size: 18px;
+    font-weight: 700;
+}
 
 /* Projects */
 
 .link {
     color: blue;
+}
+
+p {
+    margin-bottom: 20px;
 }

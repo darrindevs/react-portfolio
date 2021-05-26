@@ -26,7 +26,7 @@ export default function Project3() {
       <div>
         <div>
           <a href="#" class="inline-block">
-            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800">
+            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-400 text-white">
               React
             </span>
           </a>
@@ -48,7 +48,7 @@ export default function Project3() {
       <div>
         <div>
           <a href="#" class="inline-block">
-            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-pink-100 text-pink-800">
+            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-pink-600 text-white">
               React Render
             </span>
           </a>
@@ -66,7 +66,7 @@ export default function Project3() {
 
       <div>
         <div>
-            <span class="inline-flex items-center mb-3 px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800">
+            <span class="inline-flex items-center mb-3 px-3 py-0.5 rounded-full text-sm font-medium bg-yellow-400 text-white">
               JavaScript
             </span>
         </div>

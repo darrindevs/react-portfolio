@@ -10,7 +10,7 @@ export default function Project6() {
   <div class="relative pb-24 bg-gray-800">
     <div class="absolute inset-0">
       <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixqx=BKMIUbtu0C&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100" alt=""></img>
-      <div class="absolute inset-0 bg-gray-800 mix-blend-multiply" aria-hidden="true"></div>
+      <div class="absolute inset-0 bg-green-400 mix-blend-multiply" aria-hidden="true"></div>
     </div>
     <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-22 sm:px-6 lg:px-8">
       <h1 class="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Portfolio 3</h1>
@@ -26,7 +26,7 @@ export default function Project6() {
       <div>
         <div>
           <a href="#" class="inline-block">
-            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800">
+            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-yellow-400 text-gray">
              JavaScript
             </span>
           </a>
@@ -45,7 +45,7 @@ export default function Project6() {
       <div>
         <div>
           <a href="#" class="inline-block">
-            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-pink-100 text-pink-800">
+            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-900 text-white">
               Typewriter Effect
             </span>
           </a>
@@ -63,7 +63,7 @@ export default function Project6() {
 
       <div>
         <div>
-            <span class="inline-flex items-center mb-3 px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800">
+            <span class="inline-flex items-center mb-3 px-3 py-0.5 rounded-full text-sm font-medium bg-pink-400 text-white">
               Bootstrap 
             </span>
         </div>

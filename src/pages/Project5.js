@@ -26,7 +26,7 @@ export default function Project5() {
       <div>
         <div>
           <a href="#" class="inline-block">
-            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800">
+            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-pink-800 text-white">
               Mongo
             </span>
           </a>
@@ -45,7 +45,7 @@ export default function Project5() {
       <div>
         <div>
           <a href="#" class="inline-block">
-            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-pink-100 text-pink-800">
+            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-green-700 text-white">
               Express
             </span>
           </a>
@@ -63,7 +63,7 @@ export default function Project5() {
 
       <div>
         <div>
-            <span class="inline-flex items-center mb-3 px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800">
+            <span class="inline-flex items-center mb-3 px-3 py-0.5 rounded-full text-sm font-medium bg-yellow-200 text-gray">
               Node
             </span>
         </div>
@@ -75,7 +75,7 @@ export default function Project5() {
           Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
           </p>
           <div className="pt-5">
-            <a className="link" href="https://mysterious-earth-87062.herokuapp.com" target="blank">View the app</a>.
+            <a className="link" href="https://mysterious-earth-87062.herokuapp.com" target="blank">View the app</a>
           </div>
       </div>
     </div>

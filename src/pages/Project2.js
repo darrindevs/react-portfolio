@@ -27,7 +27,7 @@ export default function Project2() {
       <div>
         <div>
           <a href="#" class="inline-block">
-            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-indigo-100 text-indigo-800">
+            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium text-white bg-indigo-800">
               React
             </span>
           </a>
@@ -46,7 +46,7 @@ export default function Project2() {
       <div>
         <div>
           <a href="#" class="inline-block">
-            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-pink-100 text-pink-800">
+            <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-red-600 text-white">
               API
             </span>
           </a>
@@ -64,7 +64,7 @@ export default function Project2() {
 
       <div>
         <div>
-            <span class="inline-flex items-center mb-3 px-3 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800">
+            <span class="inline-flex items-center mb-3 px-3 py-0.5 rounded-full text-sm font-medium bg-gray-400 text-white">
               GitHub
             </span>
         </div>
@@ -77,7 +77,7 @@ export default function Project2() {
           </p>
           
           <div className="mt-5">
-            <a className="link" href="https://darrindevs.github.io/employee-directory/" target="blank">View the app</a>
+            <a className="link" href="https://darrindevs.github.io/employee-directory/" target="blank">View the app</a>.
           </div>
           
       </div>

@@ -51,7 +51,13 @@ export default function List3() {
                             
                             </div>
                         <div className="mt-2 flex items-center sm:mt-0">
-                            <svg className="-ml-1 mr-1.5 h-4 w-4 text-indigo-400" fill="currentColor" viewBox="0 0 8 8">
+                        <svg className="-ml-1 mr-1.5 h-4 w-4 text-indigo-400" fill="currentColor" viewBox="0 0 8 8">
+                            <circle cx={4} cy={4} r={3} />
+                            </svg>
+                            <svg className="-ml-1 mr-1.5 h-4 w-4 text-red-600" fill="currentColor" viewBox="0 0 8 8">
+                            <circle cx={4} cy={4} r={3} />
+                            </svg>
+                            <svg className="-ml-1 mr-1.5 h-4 w-4 text-gray-400" fill="currentColor" viewBox="0 0 8 8">
                             <circle cx={4} cy={4} r={3} />
                             </svg>
                         </div>
@@ -73,7 +79,13 @@ export default function List3() {
                             
                             </div>
                         <div className="mt-2 flex items-center sm:mt-0">
-                            <svg className="-ml-1 mr-1.5 h-4 w-4 text-indigo-400" fill="currentColor" viewBox="0 0 8 8">
+                        <svg className="-ml-1 mr-1.5 h-4 w-4 text-indigo-400" fill="currentColor" viewBox="0 0 8 8">
+                            <circle cx={4} cy={4} r={3} />
+                            </svg>
+                            <svg className="-ml-1 mr-1.5 h-4 w-4 text-pink-600" fill="currentColor" viewBox="0 0 8 8">
+                            <circle cx={4} cy={4} r={3} />
+                            </svg>
+                            <svg className="-ml-1 mr-1.5 h-4 w-4 text-yellow-400" fill="currentColor" viewBox="0 0 8 8">
                             <circle cx={4} cy={4} r={3} />
                             </svg>
                         </div>
@@ -95,7 +107,13 @@ export default function List3() {
                             
                             </div>
                         <div className="mt-2 flex items-center sm:mt-0">
-                            <svg className="-ml-1 mr-1.5 h-4 w-4 text-indigo-400" fill="currentColor" viewBox="0 0 8 8">
+                        <svg className="-ml-1 mr-1.5 h-4 w-4 text-red-600" fill="currentColor" viewBox="0 0 8 8">
+                            <circle cx={4} cy={4} r={3} />
+                            </svg>
+                            <svg className="-ml-1 mr-1.5 h-4 w-4 text-purple-400" fill="currentColor" viewBox="0 0 8 8">
+                            <circle cx={4} cy={4} r={3} />
+                            </svg>
+                            <svg className="-ml-1 mr-1.5 h-4 w-4 text-green-200" fill="currentColor" viewBox="0 0 8 8">
                             <circle cx={4} cy={4} r={3} />
                             </svg>
                         </div>
@@ -117,7 +135,13 @@ export default function List3() {
                             
                             </div>
                         <div className="mt-2 flex items-center sm:mt-0">
-                            <svg className="-ml-1 mr-1.5 h-4 w-4 text-indigo-400" fill="currentColor" viewBox="0 0 8 8">
+                        <svg className="-ml-1 mr-1.5 h-4 w-4 text-pink-800" fill="currentColor" viewBox="0 0 8 8">
+                            <circle cx={4} cy={4} r={3} />
+                            </svg>
+                            <svg className="-ml-1 mr-1.5 h-4 w-4 text-green-700" fill="currentColor" viewBox="0 0 8 8">
+                            <circle cx={4} cy={4} r={3} />
+                            </svg>
+                            <svg className="-ml-1 mr-1.5 h-4 w-4 text-yellow-200" fill="currentColor" viewBox="0 0 8 8">
                             <circle cx={4} cy={4} r={3} />
                             </svg>
                         </div>
@@ -139,7 +163,13 @@ export default function List3() {
                             
                             </div>
                         <div className="mt-2 flex items-center sm:mt-0">
-                            <svg className="-ml-1 mr-1.5 h-4 w-4 text-indigo-100" fill="currentColor" viewBox="0 0 8 8">
+                        <svg className="-ml-1 mr-1.5 h-4 w-4 text-yellow-400" fill="currentColor" viewBox="0 0 8 8">
+                            <circle cx={4} cy={4} r={3} />
+                            </svg>
+                            <svg className="-ml-1 mr-1.5 h-4 w-4 text-indigo-900" fill="currentColor" viewBox="0 0 8 8">
+                            <circle cx={4} cy={4} r={3} />
+                            </svg>
+                            <svg className="-ml-1 mr-1.5 h-4 w-4 text-pink-400" fill="currentColor" viewBox="0 0 8 8">
                             <circle cx={4} cy={4} r={3} />
                             </svg>
                         </div>
